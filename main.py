@@ -408,7 +408,7 @@ async def button(update, context):
             reply_markup = InlineKeyboardMarkup(keyboard)
             await context.bot.send_photo(
                 chat_id=user_id,
-                photo=open('pay/pay.jpeg', 'rb'),
+                photo=open('pay/Example-Qr.jpeg', 'rb'),
                 caption="""✨ Selamat! Anda telah disetujui untuk bergabung ke paket VIP berikut.
 
 <blockquote>Sekarang kalian memiliki akses untuk bergabung keseluruhan tautan channel dan grup vvip di bawah. Silahkan gabung sekarang ke channel dan grup vvip yang kalian inginkan.</blockquote>
